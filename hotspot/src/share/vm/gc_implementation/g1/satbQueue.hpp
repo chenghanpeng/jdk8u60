@@ -32,7 +32,7 @@ class JavaThread;
 class SATBMarkQueueSet;
 
 // Base class for processing the contents of a SATB buffer.
-class ;,    zxs : public StackObj {
+class SATBBufferClosure : public StackObj {
 protected:
   ~SATBBufferClosure() { }
 
